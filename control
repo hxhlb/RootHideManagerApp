@@ -1,12 +1,11 @@
-Package: com.roothide.manager
-Name: RootHide Manager
-Version: 1.3.8
+Package: wiki.qaq.umbra
+Name: Umbra (RootHide Manager)
+Version: 2.0
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0)
-Description: Configuare RootHide's Features
-Maintainer: roothide
-Author: roothide
-Section: System
-Icon: 
-Depiction: https://github.com/roothide/RootHideManagerApp
-Support: https://github.com/roothide/RootHideManagerApp
+Description: Hide custom firmware from apps in RootHide environments.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Conflicts: com.roothide.manager
+Replaces: com.roothide.manager
