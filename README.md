@@ -6,12 +6,12 @@
 
 ## English
 
-Umbra is the manager app for the RootHide jailbreak environment. It hides jailbreak traces from apps and helps maintain the environment. Requires iOS 15 or later.
+Umbra is the manager app for RootHide custom firmware. It hides signs of custom firmware from apps and helps maintain the environment. Requires iOS 15 or later.
 
 ### Features
 
-- **Blacklist**: Toggle jailbreak hiding per app. Search, refresh, and clear an app's data via long press or swipe. An environment check summary sits at the top of the list, with a detail page that supports pull to refresh.
-- **var Cleanup**: Scan for files that apps may use to detect a jailbreak, listed by rule priority. Select items individually or in bulk, copy paths, or open them in a file manager (Fila first, then Filza). Removal asks for confirmation, runs in the background, and keeps failed items for retry.
+- **Blacklist**: Choose which apps custom firmware is hidden from. Search, refresh, and clear an app's data via long press or swipe. An environment check summary sits at the top of the list, with a detail page that supports pull to refresh.
+- **var Cleanup**: Scan for files that apps may use to detect custom firmware, listed by rule priority. Select items individually or in bulk, copy paths, or open them in a file manager (Fila first, then Filza). Removal asks for confirmation, runs in the background, and keeps failed items for retry.
 - **Settings**
   - General: Whitelist mode (placeholder, not yet enabled).
   - Services: Manage listening ports for SSH, Dropbear, Frida and similar services. The original plist is backed up before changes.
@@ -72,12 +72,12 @@ MIT. See `LICENSE`.
 
 ## 简体中文
 
-Umbra 是 RootHide 越狱环境的管理 App，用于对 App 隐藏越狱痕迹并维护环境。需要 iOS 15 或更新版本。
+Umbra 是 RootHide 自定义固件的管理 App，用于对 App 隐藏自定义固件痕迹并维护环境。需要 iOS 15 或更新版本。
 
 ### 功能
 
-- **黑名单**：按 App 开关越狱隐藏，支持搜索、刷新，长按或侧滑清除 App 数据。列表顶部汇总环境检查结果，详情页可下拉刷新。
-- **var 清理**：扫描可能被 App 用于识别越狱的文件，按规则优先级列出。支持单选、批量选择、复制路径，或在文件管理器中打开（优先 Fila，其次 Filza）。移除前确认，后台执行，失败项保留供重试。
+- **黑名单**：按 App 选择是否隐藏自定义固件，支持搜索、刷新，长按或侧滑清除 App 数据。列表顶部汇总环境检查结果，详情页可下拉刷新。
+- **var 清理**：扫描可能被 App 用于识别自定义固件的文件，按规则优先级列出。支持单选、批量选择、复制路径，或在文件管理器中打开（优先 Fila，其次 Filza）。移除前确认，后台执行，失败项保留供重试。
 - **设置**
   - 通用：白名单模式（占位，暂未启用）。
   - 服务：管理 SSH、Dropbear、Frida 等服务的监听端口，修改前自动备份原始 plist。
